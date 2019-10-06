@@ -22,7 +22,7 @@ def simulation(temp, nodes, temp_out, temp_in):
     h_out = 20
     length = 0.2
     dx = length / (nodes - 1)
-    dt = 20
+    dt = 10
     iterations = 10000
 
     # Calculations
